@@ -1,70 +1,50 @@
-# Getting Started with Create React App
+This is the README for the PianoRoll frontend coding challenge. In this challenge, you'll find the code for a web application that allows users to explore piano rolls and play audio clips associated with them.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Getting Started
+Follow these steps to get the project up and running on your local machine:
 
-## Available Scripts
+Clone the Repository:
 
-In the project directory, you can run:
+Clone this repository to your local machine using Git.
 
-### `npm start`
+git clone https://github.com/your-username/piano-roll-frontend.git
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+This is a React app.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Navigate to the Project Directory:
 
-### `npm test`
+Change your working directory to the project's root folder.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+cd piano-app
 
-### `npm run build`
+nstall Dependencies:
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+npm install and npm install react-player 
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Project Structure
+The project's source code is organized into several components:
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+GridContainer: This component is responsible for fetching data from an external API and displaying a grid of piano rolls. Users can click on piano rolls to select them.
 
-### `npm run eject`
+GridList: This component displays a list of piano rolls and allows users to select one.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+PianoRoll: This component displays detailed information about a selected piano roll, including an audio player to play the associated audio clip.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+MainView: This component combines the GridList and PianoRoll components to create the main user interface.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+NavBar: This component is responsible for displaying the project's navigation bar.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+Welcome: This component displays a welcome message.
 
-## Learn More
+How to Use the App
+Upon starting the app, you will see a list of piano rolls in the grid view on the right side of the screen.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+You can click on a piano roll to select it. The selected piano roll's details will be displayed on the left side of the screen.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+In the piano roll details view, you can click the "Note," "Start," and "End" buttons to display information about the piano roll's note, start time, and end time.
 
-### Code Splitting
+Customize and Extend:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+You can customize and extend this project as needed for your own purposes. You can modify the design, add more features, and improve the user interface.
 
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+If you need any further explanation , I will provide you more.
